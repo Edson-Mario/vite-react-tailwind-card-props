@@ -44,6 +44,7 @@ function App() {
   let inputCompany = useRef()
   let inputIntroducation = useRef()
   let inputPicture = useRef()
+  let inputProfission = useRef()
 
   function registerPerson() {
     const profissionAndCompay = inputProfission.current.value +', '+ inputCompany.current.value
